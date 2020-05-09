@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Andrew's Project</title>
+  </head>
+  <body>
+    <h1>EE551 Final Project - Andrew Amerman<br>Enabled Motion Detection</h1>
+    <img src="{{ url_for('video_feed') }}">
+     <form action="/">
+            <input type="submit" value="Return Home" />
+        </form>
+     <form action="/rotate-left">
+            <input type="submit" value="Rotate Image Left" />
+        </form> 
+        <form action="/rotate-right">
+            <input type="submit" value="Rotate Image Right" />
+        </form>
+        <form action="/flip-image">
+            <input type="submit" value="Flip Image" />
+        </form>
+        <form action="/grey-scale">
+            <input type="submit" value="Convert to Greyscale" />
+        </form>
+
+           
+  </body>
+</html>
